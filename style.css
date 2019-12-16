@@ -1,14 +1,20 @@
 @charset "UTF-8";
 
 body{
-    background-image: url("indice.png");
+    background-image: url("index.png") ;
     background-repeat: no-repeat, repeat;
+    background-size: auto;
+    background-position: center;
+}
+.header{
+    
 }
 .button{
     background-color: rgb(55, 91, 167);
     border: none;
     color: white;
     padding: 15px 32px;
+    margin: auto;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -20,6 +26,7 @@ body{
     appearance: button;
     /*botao que abre um link*/
     text-decoration: none;
+    margin: auto;
     color: white;
     border: none;
     background-color: rgb(55, 91, 167);
