@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body{
+    background-image: url("indice.png");
+    background-repeat: no-repeat, repeat;
+}
+.button{
+    background-color: rgb(55, 91, 167);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.buttonl{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    /*botao que abre um link*/
+    text-decoration: none;
+    color: white;
+    border: none;
+    background-color: rgb(55, 91, 167);
+    padding: 15px 32px;
+}
+#botoes{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
